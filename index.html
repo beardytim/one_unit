@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>One Unit</title>
+        <meta name="description" content="Simple Calculator for 1 unit of alcohol">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>One Unit</h1>
+        <p>Quick simple calculator that works out what 1 unit of alcohol is (in ml) given the strength (%).</p>
+        <div id="form">
+        <p><strong>Enter Strengh (%)</strong><br><br>
+        <input type="number" id="strength" step=".1"><br><br>
+        <input type="submit" onclick="calculate()" value="Calculate">
+        </p>
+        <p id="message"></p></div>
+        <footer>For Jane</footer>
+
+        <script src="scripts/script.js" async defer></script>
+    </body>
+</html>

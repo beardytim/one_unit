@@ -1,0 +1,46 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+body{
+    padding-top: 75px;
+    background: lightblue;
+    color: black;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+}
+
+input{
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    width: 25%;
+    height: 50px;
+}
+
+input[type=number]{
+    width: 20%;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
